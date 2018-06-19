@@ -1,0 +1,63 @@
+html, body{
+    height: 100%;
+    margin: 0px;
+    background-color: aquamarine;
+}
+.full-page{
+    height: 98.3%;
+    width: auto;
+    margin: 0px;
+    border: 5px solid blue;
+}
+.timer{
+    height: 20%;
+    width: auto;
+    margin: 5px;
+  /*  border: 5px solid rgb(214, 204, 147);*/
+}
+.stopwatch{
+    height: 80%;
+    width: 50%;
+    margin: 4% 22%;
+    padding: 0 0 0 10%;
+}
+.question{
+    height: 22%;
+    width: auto;
+    margin: 5px;
+    font-size: 17px;
+    font-weight: bold;
+    text-align: left;
+    padding: 1% 2%;
+    border: 5px solid rgb(236, 68, 147);
+    border-radius: 20px;
+}
+.option{
+    height: 33%;
+    width: auto;
+    margin: 5px;
+    border: 5px solid green;
+}
+.option ul{
+    list-style-type: none;
+}
+.option ul li{
+    margin: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 15px;
+    text-align: left;
+    padding: 0px 4px;
+}
+.navigator{
+    height: 10%;
+    width: auto;
+    margin: 20px 5px 5px 5px;
+    border: 5px solid darkmagenta;
+}
+.navigator button{
+    height: 80%;
+    width: 43%;
+    margin: 3%;
+    font-size: 15px;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learn & Earn</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="inc\TimeCircles.js"></script>
+    <link href="inc\TimeCircles.css" rel="stylesheet">        
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="full-page">
+        <div class="timer">
+            <div class="stopwatch" data-timer="15"></div>
+        </div>
+        <div class="question">
+                This is question?This is question?This is question?This is question?
+                This is question?This is question?This is question?This is question?
+                This is question?This is question?This is question?This is question?
+                This is question?This is question?This is question?This is question?
+        </div>
+        <div class="option">
+            <ul>
+                <li>MY name is Abhishek ranjan and i am a bca student of Abc.</li>
+                <li>MY name is Abhishek ranjan and i am a bca student of Abc.</li>
+                <li>MY name is Abhishek ranjan and i am a bca student of Abc.</li>
+                <li>MY name is Abhishek ranjan and i am a bca student of Abc.</li>
+            </ul>
+        </div>
+        <div class="navigator">
+            <button>Prev</button>
+            <button>Next</button>
+        </div>
+    </div>
+    <script>
+    $(".stopwatch").TimeCircles({
+    "animation": "ticks",
+    "bg_width": 1,
+    "fg_width": 0.13333333333333333,
+    "circle_bg_color": "#60686F",
+    "total_duration":15,
+    "time": {
+        "Days": {
+            "text": "Days",
+            "color": "#FFCC66",
+            "show": false
+        },
+        "Hours": {
+            "text": "Hours",
+            "color": "#99CCFF",
+            "show": false
+        },
+        "Minutes": {
+            "text": "Minutes",
+            "color": "#BBFFBB",
+            "show": false
+        },
+        "Seconds": {
+            "text": "Seconds",
+            "color": "#FF9999",
+            "show": true
+        }
+    }
+});
+    </script>
+</body>
+</html>
